@@ -1,5 +1,5 @@
 function mostrar_comidas() {
-    document.getElementById("p1").innerHTML = 
+    document.getElementById("contenedor_menus").innerHTML = 
     "<h3> CARTA DE COMIDAS </h3>" +
     "<h5> Empanadas </h5>" +
     "<p> - Carne    $650 <br> - Jamón y Queso   $650</p>" +
@@ -17,7 +17,7 @@ function mostrar_comidas() {
     "<p> - Papas Fritas   $500 <br> - Puré   $400 <br> - Verduras   $450 </p>";
 }
 function mostrar_bebidas() {
-    document.getElementById("p1").innerHTML = 
+    document.getElementById("contenedor_menus").innerHTML = 
     "<h3> CARTA DE BEBIDAS </h3>" +
     "<h5> Gaseosas </h5>" +
     "<p> - Coca Cola  $300 <br> - Sprite    $300 </p>" +
@@ -33,7 +33,7 @@ function mostrar_bebidas() {
     "<p> - Gancia   $600 <br> - Fernet  $600 </p>";
 }   
 function mostrar_postres() {
-    document.getElementById("p1").innerHTML = 
+    document.getElementById("contenedor_menus").innerHTML = 
     "<h3> CARTA DE POSTRES </h3>" +
     "<h5> Helados </h5>" +
     "<p> - Vainilla   $400 <br> - Chocolate   $400 <br> - Dulce de Leche   $400 </p>" +
